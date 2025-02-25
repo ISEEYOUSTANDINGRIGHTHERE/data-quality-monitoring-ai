@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-quality-monitoring
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: data-quality-monitoring
+  template:
+    metadata:
+      labels:
+        app: data-quality-monitoring
+    spec:
+      containers:
+      - name: app
+        image: data-quality-monitoring:latest
+        ports:
+        - containerPort: 8000
