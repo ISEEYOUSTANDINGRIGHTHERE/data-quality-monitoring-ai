@@ -5,7 +5,7 @@ An AI-powered solution for monitoring data quality in cloud data warehouses with
 
 ## Setup and Deployment
 ### 1. Clone Repository
-git clone https://github.com/yourusername/data-quality-monitoring-ai.git
+git clone https://github.com/ISEEYOUSTANDINGRIGHTTHERE/data-quality-monitoring-ai.git
 ### 2. Setup Virtual Environment and Install Dependencies
 cd data-quality-monitoring-ai
 pip install -r backend/requirements.txt
